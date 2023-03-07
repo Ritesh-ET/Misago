@@ -7,6 +7,7 @@ ENV PYTHONUNBUFFERED 1
 ENV IN_MISAGO_DOCKER 1
 
 # Install dependencies in one single command/layer
+RUN apt-get --allow-releaseinfo-change update
 RUN apt-get update && apt-get install -y \
     vim \
     libffi-dev \
