@@ -5,7 +5,7 @@
   "main": ".",
   "scripts": {
     "build": "webpack --mode production --progress",
-    "start": "webpack --watch --progress",
+    "start": "webpack --watch --progress",  
     "prettier": "npx prettier --write src",
     "eslint": "eslint src"
   },
